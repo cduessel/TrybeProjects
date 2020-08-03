@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link rel="stylesheet" href="mobilestyle.css" type="text/css" />
+    <title>Facebook</title>
+  </head>
+  <body>
+    <header class="top-bar">
+      <section class="logEsq">
+        <img
+          class="facebook-logo"
+          src="facebook-logo.png"
+          alt="Logo Facebook"
+        />
+      </section>
+      <section class="formDir">
+            <div class="inputs">
+              <label class="labelz" id="user-email-phone-label" for="user-email-phone">Email ou telefone</label>
+              <input id="user-email-phone" type="text" required name="user-email-phone"/>
+            <small class="gambi1"> alinhando na gambi</small>
+          </div>
+            <div class="inputs">
+              <label class="labelz" id="user-password" for="user-password">Senha</label>
+              <input type="password" id="user-password" required />
+              <small class="esqueceuZe">Esqueceu a senha?</small>
+            </div>
+           <div class="inputs">
+            <button id="button-login" class="buttontop" type="button">Entrar</button>
+        </div>
+        </section>
+    </header>
+    <div class="Ocontainer">
+      <section class="lado-esquerdo">
+        <p class="text-main"><strong>
+          O Facebook ajuda você a se conectar e compartilhar com as pessoas que
+          fazem parte da sua vida.</strong>
+        </p>
+        <img id="facebook-networking" src="networking.png" alt="networking" class="netwo" />
+      </section>
+      <section class="lado-direito">
+        <h2 class="topR">Abra uma conta</h2>
+        <h4 class="topR">É rápido e fácil.</h4>
+      <div class="oneline">
+         <div class="noming">
+          <input class="inputing caiba" placeholder="Nome" type="text"/>
+        </div>
+        <div class="noming">
+          <input class="inputing caiba" placeholder="Sobrenome" type="text"/>
+        </div>
+      </div>
+      <input class="inputing rightz coln" placeholder="Celular ou email" type="text"/>
+      <input class="inputing rightz coln" placeholder="Nova senha" type="password"/>
+      <div class="coln">
+      <label class="esqueceuZe plus" for="data">Data de nascimento</label>
+          <input class="inputing" id="data" name="data" placeholder="dd/mm/aaaa" type="date"/>
+      </div>
+          <div class="coln">
+            <p class="esqueceuZe mgZ plus">Gênero</p>
+          <label>
+              <input name="genero" type="radio" value="Feminino" checked id="Feminino"/>
+              <span>Feminino</span>
+          <label>
+              <input name="genero" type="radio" value="Masculino" id="Masculino"/>
+              <span>Masculino</span>
+          </label>
+          <label>
+              <input name="genero" type="radio" value="Personalizado" checked id="Personalizado"/>
+              <span>Personalizado</span>
+            </label>
+          </div>
+          <small class="vaiC">By clicking Sign Up, you agree to our Terms, Data Policy and Cookies Policy. You may receive SMS Notifications from us and can opt out any time.</small>
+        <button class="btnCadas" id="facebook-register" type="button">Cadastre-se</button>
+      </section>
+    </div>
+    <section class="mobilebody">
+      <input class="minput" placeholder="Número de Celular ou E-mail" type="text" />
+      <input class="minput" placeholder="Senha" type="password" />
+      <button class="mobutton" type="button">Entrar</button>
+      <small class="esqueceuZe">Esqueceu a senha?</small>
+      <p>ou</p>
+      <button class="btnCadas" type="button">Cadastre-se</button>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>

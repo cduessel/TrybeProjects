@@ -1,0 +1,185 @@
+body {
+  background: #edf0f5;
+  box-sizing: border-box;
+  font-family: Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.top-bar {
+  align-items: center;
+  background: rgb(60, 89, 152);
+  color: white;
+  display: flex;
+  font-size: 12px;
+  height: 80px;
+  justify-content: space-around;
+  margin: 0;
+  padding-top: 10px;
+  width: 100%;
+}
+
+.gambi1 {
+  color: rgb(60, 89, 152);
+}
+
+.esqueceuZe {
+  color: rgb(156, 180, 216);
+}
+
+.buttontop {
+  background: rgb(60, 89, 152);
+  border-radius: 3px;
+  color: white;
+  font-weight: 800;
+}
+
+.formDir {
+  display: flex;
+  flex-direction: row;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 2em;
+  padding-left: 10px;
+}
+
+.facebook-logo {
+  margin-top: 0;
+  width: 180px;
+}
+
+.text-main {
+  color: rgb(60, 89, 152);
+  font-weight: 800;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.netwo {
+  margin-left: 5%;
+}
+
+.Ocontainer {
+  align-content: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-right: 10%;
+}
+
+.lado-direito {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 7.5%;
+  margin-right: 7%;
+  padding-right: 1%;
+  padding-top: 5%;
+  width: 49%;
+}
+
+.lado-esquerdo {
+  margin-left: 5%;
+  padding-top: 5%;
+  width: 49%;
+}
+
+.topR {
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  font-size: 2.5em;
+}
+
+.oneline {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  line-height: 3em;
+  margin-top: 20px;
+  padding-right: 1%;
+  width: 100%;
+}
+
+.noming {
+  width: 45%;
+}
+
+.inputing {
+  border-color: #bdc7d8;
+  border-radius: 5px;
+  font-size: 18px;
+  margin: 0;
+  padding: 7px;
+}
+
+.lining {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+}
+
+.coln {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.rightz {
+  align-items: flex-end;
+  margin-bottom: 10px;
+}
+
+.mgZ {
+  margin: 0;
+  padding: 0;
+}
+
+.plus {
+  color: #90949c;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.vaiC {
+  color: grey;
+  font-size: 0.7em;
+  padding-bottom: 15px;
+  padding-top: 7px;
+}
+
+.btnCadas {
+  background: linear-gradient(#67ae55, #578843);
+  background-color: #69a74e;
+  border: 1px solid;
+  border-color: #3b6e22 #3b6e22 #2c5115;
+  border-radius: 5px;
+  color: white;
+  display: inline-block;
+  font-size: 19px;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  min-width: 194px;
+  padding: 7px 20px;
+  text-align: center;
+  width: 151px;
+}
+
+.caiba {
+  width: 170px;
+}
+
+.mobilebody {
+  display: none;
+}
